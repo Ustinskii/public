@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: #635854;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 4px solid #3596f5;
+}
+.navbar{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    text-align: center;
+    
+}
+.navbar-item{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.navbar-link{
+  text-decoration: none;  
+  color: #fff;
+}
+.video{
+    max-width: 1200px; 
+    margin: 0;
+    width: 100%;
+}
+.losyng{
+font-family: Geometria;
+font-weight: 400;
+}
+.slide-show{
+    width: 1000px;
+    height: 500px;
+    overflow: hidden;
+    border: 5px solid #fff;
+}
+.mid{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%) ;
+}
+.navigation{
+    position: absolute;
+    bottom: 10px;
+    left:50% ;
+    transform: translateX(-50%);
+    display: flex;
+    background: red;
+}
+
+.nav{
+    width: 17px;
+    height: 17px;
+    border: 17px;
+    border: 1px solid #fff;
+    margin: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slider-container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.prev-button,
+.next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    color: white;
+}
+
+.prev-button {
+    left: 10px;
+}
+
+.next-button {
+    right: 10px;
+}
+footer {
+    height: 50px;
+    margin-top: 120px;
+ background: #42A5F5;
+ color: white;
+ line-height: 50px;
+ padding: 0 20px;
+ }
+ .catalog{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    
+ }
+ .item h3{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-weight: 600;
+ }
